@@ -1,0 +1,115 @@
+:root{
+
+
+--openSans: 'Open Sans', sans-serif;
+--colorPrincipal: #707070;
+
+}
+
+
+/*HEADER, MENU*/
+header, h1, a, li{
+
+    font-family: var(--openSans);
+    list-style: none;
+    text-decoration: none;
+    color: var(--colorPrincipal);
+    width: 300px
+    
+}
+nav{
+    position:absolute;
+    margin-top:
+
+}
+
+
+li{
+
+    padding-bottom: 80px;
+
+
+}
+
+
+#cabecero{
+
+    
+    margin: 20px 0 0 430px
+
+
+}
+
+
+#menu-imagen{
+    
+    position:absolute;
+    margin-left: 30px;
+    margin-top:10px;
+    transition: 0.6s 0.7s;
+    transition-delay:0.1s;
+
+}
+#menu-imagen:hover{
+    transform:scale(1.1,1.1);
+    border: solid 0.5px;
+    border-color: rgba(156, 156, 156, 0.034);
+    border-radius: 20px;
+    
+
+
+}
+
+
+
+
+/*IMAGENES PAGINA 1 - CASAS*/
+#imgYork{
+    position: absolute;
+    left: 760px;
+    top: 10px;
+    transition: 0.6s 0.7s;
+    transition-delay:0.1s;
+}
+#imgYork:hover{
+    transform:scale(1.1,1.1);
+    z-index: 2;
+
+}
+
+#img1{
+    position:absolute;
+    margin: 357px 0 0 0;
+    z-index: 1;
+    transition: 0.6s 0.7s;
+    transition-delay:0.1s;
+
+
+}
+
+#img1:hover{
+
+    transform:scale(1.1,1.1);
+
+
+}
+
+/*MENU NAV */
+
+nav{
+    visibility: hidden;
+}
+
+
+
+#visible{
+
+    visibility:visible;
+    transition: 0.6s 0.7s;
+    transition-delay:0.1s;
+    transform: translateY(70px)
+    
+
+}
+
+
