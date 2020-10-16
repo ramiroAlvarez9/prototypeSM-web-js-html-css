@@ -17,6 +17,7 @@ header, h1, a, li{
     width: 300px
     
 }
+
 nav{
     position:absolute;
     margin-top:
@@ -113,3 +114,50 @@ nav{
 }
 
 
+@media(max-width:360px) and (max-height:700px){
+    #img1{
+        width: 400px;
+        height: 300px;
+
+    }
+   
+    #menu-imagen{
+        margin-left: 1px;
+
+    }
+
+    #cabecero{
+
+       margin-left: 10px;
+       position: absolute;
+       top: 80px;
+        
+    }
+
+    a {
+        font-size: 13px;
+        
+    }
+
+    
+    li {
+        
+        padding-bottom: 20px;
+        display: inline;
+        padding-right: 10px;
+
+    }
+    
+    
+    nav {
+        position:absolute;
+        bottom:650px;
+        left:75px;
+        
+
+    }
+
+
+
+
+}
